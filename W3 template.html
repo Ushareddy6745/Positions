@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <style>
+        a{
+            letter-spacing: 5px;
+            margin:30px;
+            text-decoration: none;
+            color: black;
+        }
+        #div1{
+            float:right;
+
+        }
+        nav{
+            background-color: white;
+            padding: 20px;
+            width: 100%;
+            top: 0%;
+            position: fixed;
+            left: 0%;
+                }
+        footer{
+            text-align: center;
+            padding: 30px;
+        }
+      input{
+        padding:10px;
+        margin: 10px;
+        
+      }
+      #div2{
+        position:relative;
+        z-index: -1;
+        
+      }
+      #div3{
+        position:absolute;
+        top:400px;
+        left:600px;
+        font-size: 40px;
+        letter-spacing: 8px;
+        
+        
+         
+      }
+      #div3 b{
+        background-color: black;opacity:0.75;
+        color:white;
+        padding: 10px;   
+        opacity: 1000px;    
+        
+      }
+      .Container{
+        display:flex;
+        margin-left: 30px;
+        width: 100%;
+        box-sizing: inherit;
+      }
+      
+      #btn{
+        display: block;
+        width:85%;
+        padding: 7px;
+      }
+      .house{
+        display: flex;
+        margin-bottom: 40px;
+
+    
+      }
+      .house #summer{
+    position:absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    z-index:1;
+    
+}
+.house #brick{
+    position:absolute;
+    background-color: black;
+    color: aliceblue;
+    padding:10px;
+  
+}
+.house #renovated{
+    position:absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.house #barn{
+    position:absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+        
+
+    </style>
+</head>
+<body>
+<nav>
+    <a href="#home"><b>BR</b> Architects</a>
+    <div id="div1">
+    <a href="#Projects">Projects</a>
+    <a href="#About">About</a>
+    <a href="#Contact">Contact</a>
+    </div>
+</nav>
+<div id="div2">
+    <img src="./architect.jpg" >
+</div>
+<div id="div3">
+    <span style="color:white;"><b>BR</b> Architects</span>
+    
+</div>
+    <section id="Projects">
+      <h3 style="margin-top:50px; border: 10px solid white;">Projects</h3>
+      <div class="house">
+        <div>
+          <div id="summer">Summer House</div>
+          <img src="./summer.jpg" alt="" width="100%">
+        </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="brick">Brick House</div>
+          <img src="./brick.jpg" alt="" width="100%">
+        </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="renovated">Renovated</div>
+          <img src="./renovated.jpg" alt="" width="100%">
+        </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="barn">Barn House</div>
+          <img src="./barn.jpg" alt="" width="100%">
+        </div>
+      </div>
+      <div class="house">
+        <div>
+          <div id="summer">Summer House</div>
+          <img src="./summer1.jpg" alt="" width="100%">
+         </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="brick">Brick House</div>
+          <img src="./brick1.jpg" alt="" width="100%" >
+          </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="renovated">Renovated</div>
+          <img src="./renovated1.jpg" alt="" width="100%">
+          </div>
+        &NonBreakingSpace;&nbsp;
+        <div>
+          <div id="barn">Barn House</div>
+          <img src="./barn1.jpg" alt="" width="100%">
+          </div>
+      </div>
+      </section>
+
+<div id="About" style="clear: both; margin-top:50px;border: 10px solid white;">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+    
+    <div class="Container">
+    <div>
+    <img src="./img1.jpg" width="300px" >
+    <h3>John Doe</h3>
+    <p style="color: grey;"> CEO &amp;Founder</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+     <button id="btn">Contact</button>
+    </div>
+    <div>
+        <img src="./img2.jpg" width="300px">
+        <h3>Jane Doe</h3>
+        <p style="color: grey;">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+         <button id="btn">Contact</button>
+    </div>
+    <div>
+        <img src="./img3.jpg" width="300px">
+        <h3>Mike Ross</h3>
+      <p style="color: grey;">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button id="btn">Contact</button>
+       </div>
+    <div>
+        <img src="./img4.jpg" width="300px">
+      <h3>Dan Star</h3>
+      <p style="color: grey;">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <button id="btn">Contact</button>
+    </div>
+    </div>
+    
+<div id="Contact" style="margin-top:50px;border:10px solid white;">
+    <h3>Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <input type="text" id="subject" placeholder="Subject"><br>
+    <input type="text" id="comment" placeholder="Comment"><br>
+    <button style="background-color: black;color: white; padding: 10px;margin-bottom: 10px;">SEND MESSAGE</button>
+</div>
+<div>
+    <img src="./map.jpg" style="width: 100%;"> 
+</div>
+<footer style="background-color: black; color:white;">
+    <p>Powered by
+    <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" style="color: white;">w3.css</a></p>
+</footer>
+</body>
+</html>
